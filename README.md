@@ -1,5 +1,7 @@
 # Getting Start
 ```
+https://github.com/0261/meetingroom.git
+
 docker image build -t meeting .
 docker run -d -p 3306:3306 meeting
 
@@ -8,7 +10,22 @@ npm start
 ```
 
 # PLAYGROUND
-`localhost:4000/playgroud`
+```
+localhost:4000/playground
+
+query {
+  reservations{
+    member_id
+    meeting_room_id
+    reservation_time
+  }
+  rooms(targetDate:"2019-05-25 22:00:00") {
+    name
+    table_size
+    id
+  }  
+}
+```
 
 # POSTMAN
 ```
