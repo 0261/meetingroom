@@ -1,0 +1,18 @@
+type Reservation {
+    member_id: Int
+    meeting_room_id : Int
+    reservation_time: String!
+}
+type MeetingRoom {
+    name: String!
+    table_size: Int!
+    id: Int!
+}
+type Query {
+    reservations: [Reservation]
+    rooms(targetDate:String!): [MeetingRoom]
+}
+
+type Mutation {
+    insertReservation(memberId: Int!, meetingRoomId: Int!, reservationTime: String!): Reservation
+}   
