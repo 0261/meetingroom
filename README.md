@@ -7,10 +7,10 @@ npm i
 npm start
 ```
 
-> PLAYGROUND
+# PLAYGROUND
 `localhost:4000`
 
-> POSTMAN
+# POSTMAN
 ```
 curl -X POST \
   http://localhost:4000/graphql \
