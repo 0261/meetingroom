@@ -8,7 +8,7 @@ npm start
 ```
 
 # PLAYGROUND
-`localhost:4000`
+`localhost:4000/playgroud`
 
 # POSTMAN
 ```
@@ -20,4 +20,4 @@ curl -X POST \
   -d '{
     "query": "{reservations{member_id \n reservation_time}}"
 }'
-```
+```ㅇ
