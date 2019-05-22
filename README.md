@@ -1,6 +1,6 @@
 # Getting Start
 ```
-https://github.com/0261/meetingroom.git
+git clone https://github.com/0261/meetingroom.git
 
 docker image build -t meeting .
 docker run -d -p 3306:3306 meeting
